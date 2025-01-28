@@ -30,7 +30,7 @@
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
         <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/og.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/manifest.json">
         <meta name="msapplication-TileColor" content="#ffffff">
@@ -48,14 +48,16 @@
         <meta property="og:url" content="https://laravelcoach.com/">
         <meta property="og:title" content="Laravel Coach – Level Up Your Laravel Skills">
         <meta property="og:description" content="Join Laravel Coach to enhance your Laravel skills, work through real-world projects, and get answers to your coding questions. Learn, build, and grow with a supportive community of junior developers.">
-        <meta property="og:image" content="https://laravelcoach.com/favicon-96x96.png">
+        <meta property="og:image" content="https://laravelcoach.com/og.png">
+        <meta property="og:logo" content="https://laravelcoach.com/og.png" />
+
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://laravelcoach.com/">
         <meta property="twitter:title" content="Laravel Coach – Level Up Your Laravel Skills">
         <meta property="twitter:description" content="Join Laravel Coach to enhance your Laravel skills, work through real-world projects, and get answers to your coding questions. Learn, build, and grow with a supportive community of junior developers.">
-        <meta property="twitter:image" content="https://laravelcoach.com/favicon-96x96.png">
+        <meta property="twitter:image" content="https://laravelcoach.com/og.png">
 
         @filamentStyles
         @vite('resources/css/app.css')
