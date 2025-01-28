@@ -104,7 +104,7 @@ class DeveloperForm extends Component implements HasForms
 
                 Textarea::make('desired_project_type')
                     ->required()
-                    ->maxLength(65535)
+                    ->maxLength(255)
                     ->label('What type of project would you like to build?'),
 
                 Select::make('preferred_learning_method')
