@@ -37,6 +37,26 @@
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
 
+        <meta name="title" content="Laravel Coach – Level Up Your Laravel Skills">
+        <meta name="description" content="Join Laravel Coach to enhance your Laravel skills, work through real-world projects, and get answers to your coding questions. Learn, build, and grow with a supportive community of junior developers.">
+        <meta name="keywords" content="Laravel, Laravel coaching, junior developers, learn Laravel, PHP development, Laravel projects, Laravel tutorials, coding guidance, developer growth">
+        <meta name="author" content="Laravel Coach">
+        <meta name="robots" content="index, follow">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://laravelcoach.com/">
+        <meta property="og:title" content="Laravel Coach – Level Up Your Laravel Skills">
+        <meta property="og:description" content="Join Laravel Coach to enhance your Laravel skills, work through real-world projects, and get answers to your coding questions. Learn, build, and grow with a supportive community of junior developers.">
+        <meta property="og:image" content="https://laravelcoach.com/favicon-96x96.png">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://laravelcoach.com/">
+        <meta property="twitter:title" content="Laravel Coach – Level Up Your Laravel Skills">
+        <meta property="twitter:description" content="Join Laravel Coach to enhance your Laravel skills, work through real-world projects, and get answers to your coding questions. Learn, build, and grow with a supportive community of junior developers.">
+        <meta property="twitter:image" content="https://laravelcoach.com/favicon-96x96.png">
+
         @filamentStyles
         @vite('resources/css/app.css')
     </head>
