@@ -1,6 +1,6 @@
 <div class="max-w-2xl mx-auto  px-4">
     <div class="typewriter mt-10">
-        <h1 class="text-3xl font-black text-white py-6 text-center mt-10">Laravel Coaching</h1>
+        <h1 class="text-4xl font-black text-white py-6 text-center mt-10">Laravel Coaching</h1>
     </div>
 
     <div class="bg-slate-900/20 border-y border-yellow-500 p-4  shadow-xl rounded-tl-3xl rounded-br-3xl mb-20 mt-10">
