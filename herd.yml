@@ -1,0 +1,5 @@
+integrations:
+  forge:
+    laravelcoach.com:
+      server-id: 462288
+      site-id: 2600276
