@@ -10,7 +10,8 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                'sans': ['Doto', 'system-ui', 'sans-serif'],
+                'sans': ['Lato', 'system-ui', 'sans'],
+                'serif': ['Doto', 'system-ui', 'sans-serif'],
             }
         },
     },
