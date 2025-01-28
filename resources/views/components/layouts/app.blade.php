@@ -59,6 +59,16 @@
         <meta property="twitter:description" content="Join Laravel Coach to enhance your Laravel skills, work through real-world projects, and get answers to your coding questions. Learn, build, and grow with a supportive community of junior developers.">
         <meta property="twitter:image" content="https://laravelcoach.com/og.png">
 
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7YTCMGTHKB"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-7YTCMGTHKB');
+        </script>
+
         @filamentStyles
         @vite('resources/css/app.css')
     </head>
