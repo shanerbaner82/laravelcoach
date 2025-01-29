@@ -5,15 +5,18 @@
 .text-sm, .text-base, .sm\:text-sm {
     font-size: 1.0rem !important;
 }
-.typewriter h1  {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .015em solid white; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .055em; /* Adjust as needed */
+.typewriter h1 {
+    overflow: hidden;
+    border-right: .015em solid white;
+    white-space: nowrap;
+    letter-spacing: .055em;
     animation:
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
+}
+
+.typewriter div {
+    width: fit-content;
 }
 
 /* The typing effect */

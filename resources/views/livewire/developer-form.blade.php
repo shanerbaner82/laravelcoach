@@ -1,6 +1,8 @@
 <div class="max-w-2xl mx-auto  px-4">
-    <div class="typewriter mt-10">
-        <h1 class="text-4xl font-serif font-black text-white py-6 text-center mt-10 leading-tight " style="line-height:5px;">Laravel Coaching</h1>
+    <div class="typewriter mt-10 flex justify-center">
+        <div class="relative">
+            <h1 class="text-4xl font-serif font-black text-white py-6 mt-10 leading-normal" style="line-height:5px;"><span>Laravel Coaching</span></h1>
+        </div>
     </div>
 
     <div class="bg-black/30 border-y border-red-400 p-4  shadow-xl rounded-tl-3xl rounded-br-3xl mb-20 mt-10">
