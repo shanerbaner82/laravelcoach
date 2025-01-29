@@ -165,10 +165,8 @@ class DeveloperResource extends Resource
 
             ])
             ->filters([
-                TernaryFilter::make('is_reviewed')
-                    ->nullable(),
+                TernaryFilter::make('is_reviewed'),
                 TernaryFilter::make('is_selected')
-                    ->nullable()
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
