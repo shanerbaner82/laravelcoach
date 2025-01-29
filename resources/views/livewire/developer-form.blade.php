@@ -3,7 +3,7 @@
         <h1 class="text-4xl font-serif font-black text-white py-6 text-center mt-10 leading-tight " style="line-height:5px;">Laravel Coaching</h1>
     </div>
 
-    <div class="bg-slate-900/20 border-y border-orange-400 p-4  shadow-xl rounded-tl-3xl rounded-br-3xl mb-20 mt-10">
+    <div class="bg-black/30 border-y border-red-400 p-4  shadow-xl rounded-tl-3xl rounded-br-3xl mb-20 mt-10">
         <div class="text-white">
             <p class="text-lg font-medium mb-10">
                 Are you a junior developer eager to level up your skills in Laravel?

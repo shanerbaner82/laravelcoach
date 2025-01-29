@@ -73,7 +73,7 @@
         @vite('resources/css/app.css')
     </head>
 
-    <body class="antialiased font-sans dark bg-gradient-to-br from-yellow-600 from-30% via-orange-500 via-70% to-red-600 to-90%">
+    <body class="antialiased font-sans dark bg-gradient-to-br from-red-600 from-30% via-orange-500 via-70% to-yellow-600 to-90%">
         {{ $slot }}
 
         @livewire('notifications')
