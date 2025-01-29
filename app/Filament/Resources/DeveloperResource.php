@@ -13,6 +13,7 @@ use Filament\Forms\Components\Toggle;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
@@ -132,6 +133,10 @@ class DeveloperResource extends Resource
                 Textarea::make('comments')
                     ->maxLength(65535)
                     ->label('Additional Comments'),
+                Toggle::make('is_reviewed')
+                    ->label('Reviewed'),
+                Toggle::make('is_selected')
+                    ->label('Selected'),
             ]);
     }
 
@@ -148,6 +153,15 @@ class DeveloperResource extends Resource
                 TextColumn::make('years_experience_php')
                     ->label('PHP')
                     ->numeric(),
+                IconColumn::make('is_reviewed')
+                    ->boolean()
+                    ->label('Reviewed')
+                    ->sortable(),
+                IconColumn::make('is_selected')
+                    ->boolean()
+                    ->label('Selected')
+                    ->sortable(),
+
             ])
             ->filters([
                 //
